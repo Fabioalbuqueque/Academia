@@ -1,0 +1,156 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.container{
+    position: relative;
+    display: flex;
+    height: 450px;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0 14px 20px #a01212;
+    overflow: hidden;
+
+}
+
+.formcontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 15px;
+    background-color: tomato;
+}
+
+.formlogin {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formtitle{
+    font-size:2.5rem;
+
+}
+
+/*------inputs-------*/
+
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px ;
+    gap: 10px;
+}
+.forminput{
+    width: 290px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    border-style: none;
+}
+
+.formbutton{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #f0f0f0;
+    background-color: #e7ac9e;
+    border-style: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    color:#0f0a0a;
+    cursor: pointer;
+    transition:.7s ease all;
+
+}
+
+.formbutton:hover{
+    background-color: #f5eeec;
+}
+
+.formlink{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/*--- telas---*/
+
+.overlaycontainer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4px;
+    transform: translateX(50%);
+   text-align: center;
+   
+}
+
+.overlay{
+    background-image: url(https://blog.lionfitness.com.br/wp-content/uploads/2018/10/muscula%C3%A7%C3%A3o-benef%C3%ADcios.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(82, 174, 228);
+    position: absolute;
+    color: #f5eeec;
+}
+
+.formtitlelight{
+
+    font-size:2.5rem;
+}
+.link{
+    text-decoration: none;
+}
+.formbuttonlight{
+    
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #f0f0f0;
+    background-color: #e7ac9e;
+    border-style: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    color:#0f0a0a;
+    cursor: pointer;
+    transition:.7s ease all;
+
+}
+.formbuttonlight:hover{
+    background-color: #f5eeec;
+}
+
+/*-- transição---*/
+
